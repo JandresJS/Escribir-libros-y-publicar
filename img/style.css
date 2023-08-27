@@ -1,0 +1,36 @@
+/*  #  {}   */
+
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#intro-container menu div{
+    display: inline-block;
+    vertical-align: top;
+
+} 
+
+#intro-container menu #logo {
+    widht: 9%;
+} 
+
+
+#intro-container menu #menu-lista {
+    widht: 89%;
+    text-align: right;
+}
+#intro-container menu #menu-lista ul {
+    margin:0;
+    padding:0;
+}
+#intro-container menu #menu-lista ul li {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+ 
+#intro-container menu #menu-lista ul li a {}
