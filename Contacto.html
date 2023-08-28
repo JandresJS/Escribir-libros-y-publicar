@@ -18,34 +18,6 @@ body {
     font-family: 'Times New Roman', Times, serif;
 }
 
-.caja {
-   position:relative;
-   display:inline-block;
-     
-}
-
-.logo-jandres {
-    position:absolute;
-    top: 93%;
-    left:20%;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 28px;
-    color:rgb(229, 255, 0);
-
-}
-
-.titulo {
-   position:absolute;
-   top:30%;
-   left:26%;
-   font-size: 70px;
-   color:rgb(7, 7, 241);
-   background-color: rgb(198, 243, 34);
-   
-}
-
-
-
 .menu {
    position:fixed;
    top: 0%;
@@ -91,19 +63,73 @@ body {
     font-weight: bold;
 } 
 
-.asesoria{
-    top: 40%;
+.caja4 {
+    position:relative;
+    display: inline-block;
+    
+}
+
+.asesoria {
+    position: absolute;
+    top:38%;
+    left:35%;
+    color:black;
+    font-size: 25px;
+}
+ .formulario {
+    
+    position:absolute;
+    top:95%;
+    left:105%;
+    font-size: 20px;
+    color:rgb(0, 255, 34);
+    background-color: rgb(243, 110, 110);
+ }
+
+
+.mensaje-final1 {
+    position:absolute;
+    top:15%;
+    left:105%;
+    height: 10%;
+    font-size: 25px;
+    color:rgb(25, 39, 240);
+}
+ 
+.circulo {
+	width: 25rem;
+	height: 17rem;
+	border-radius: 50%;
+	background: red;
+	position:absolute;
+	top:18%;
+    left:105%;
+    right: 5%;
+    left:105%;
+	
+  
+}
+.circulo > h2 {
+    top: 50%;
+	font-family: sans-serif;
+	color: rgb(27, 13, 226);
+	font-size: 1.2rem;
+	font-weight: bold;
 }
 
 /* #  {}  TERCERA PAGINA */
 </style>
 <body>
     <header>
-        <div class="caja"> 
+        <div class="caja4"> 
                
                 <img src="img/maquina.jpg" width="800" height="600"   alt="imagen de fondo" />
                 <div class="asesoria"><strong>Asesoria, sugerencias<br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp  y<br> &nbsp &nbsp &nbsp &nbsp &nbsp donaciones.</strong> </div>
-                                           
+                
+                <div class="circulo">
+                    <h2>Fue un plocer poder <br> compartir mis conocimientos y habilidades con usted, espero que continue sus proyectos; escribame si necesita mas apoyo.<br/><br/> Gracias! </h2>
+                  </div>
+                                         
                   
                     <div class="menu">
                         <ul>
@@ -116,11 +142,34 @@ body {
                            
                            
                     </div>
-                            
-                            <div class="mensaje1"></h2>Herramientas de publicacion</div>
-                            <div class="contacto">Herramientas empaginacion</div>
-                            
+                    <div class="cuadro-formulario">        
+                        <div class="formulario">
+                          <form>
+                            <select name="language">
+                                <option value="spanish">Español</option>
+                                <option value="english">Ingles</option>
+                                <option value="italian">Italiano</option>
+                            </select>
+ 
+                            <p>
+                                <label>Nombre y apellido : <input type="text" /></label>
+                            </p>
+                     
+                            <p>
+                                <label>Password : <input type="password" /></label>
+                            </p>
+                     
+                                                        <textarea name="welcomeMessage" rows="3"
+                            cols="40">Deje aqui un mensaje!
+                            </textarea>
 
+                            <p>
+                                <button type="submit">Submit</button>
+                            </p>
+                     
+                          </form>
+                        </div>        
+                    </div>
                     
                              
         </div>
